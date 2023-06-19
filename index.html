@@ -28,7 +28,7 @@
                     <div>Re-arrange to create a picture like this.</div>
                     <p id="levelPanel">
                         <input type="radio" name="level" id="easy" checked="checked" value="3" onchange="imagePuzzle.startGame(images, this.value);"
-                        /> <label for="easy">Easy</label>
+                        />
                                                 
                     </p>
                 </div>
@@ -48,7 +48,7 @@
 
         <script>
             var images = [
-                { src: 'images/pressure_boosting_device.jpg', title: 'pressure boosting system' }
+                { src: 'images/pressure_boosting_device.jpg', title: 'please solve the puzzle' }
             ];
 
             window.onload = function () {
@@ -62,9 +62,7 @@
             function rules() {
                 alert('Re arrange the image parts in a way that it correctly forms the picture. \nThe no. of steps taken will be counted.');
             }
-            function about() {
-                alert('Developed by Anurag Gandhi. \nHe can be contacted at: soft.gandhi@gmail.com');
-            }
+
         </script>
     </div>
 </body>
